@@ -11,7 +11,7 @@ gcc \
 	-Wextra \
 	-ggdb \
 	-Llib/ \
-       	-o ./build/rlGame.exe \
+        -o ./build/rlGame.exe \
 	./src/game.c \
 	-lraylib \
 	-lwinmm \
