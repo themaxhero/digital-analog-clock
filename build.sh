@@ -2,7 +2,7 @@
 
 set -xe
 
-rm -r ./build
+[ -d ./build ] && rm -r ./build
 mkdir -p ./build/
 gcc \
 	-mwindows \
